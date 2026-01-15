@@ -1,0 +1,67 @@
+@font-face {
+  font-family: "Signature";
+  src: url("../../public/fonts/HelloValentina.ttf");
+}
+.scroll-indicator {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+
+.scroll-indicator span {
+  width: 16px;
+  height: 16px;
+  border-bottom: 2px solid #ff2f92;
+  border-right: 2px solid #ff2f92;
+  transform: rotate(45deg);
+  animation: scrollDown 1.5s infinite;
+  opacity: 0;
+}
+
+.scroll-indicator span:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.scroll-indicator span:nth-child(2) {
+  animation-delay: 0.3s;
+}
+
+@keyframes scrollDown {
+  0% {
+    opacity: 0;
+    transform: rotate(45deg) translate(-5px, -5px);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+}
+
+.hello {
+  margin: 40px 0 30px;
+  font-family: "Signature", cursive;
+  font-size: 40px;
+  color: #333;
+}
+.hero {
+  min-height: 100vh;
+  background: url("../assets/bg1.png") no-repeat center center/cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  text-align: center;
+}
+.scroll {
+  margin-top: 40px;
+  opacity: 0.8;
+}

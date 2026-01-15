@@ -1,0 +1,17 @@
+.opening {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #ff2f92, #ffffff);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.opening button {
+  padding: 12px 24px;
+  border-radius: 25px;
+  border: none;
+  background: white;
+  color: #ff2f92;
+  font-weight: bold;
+}

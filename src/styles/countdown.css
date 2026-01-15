@@ -1,0 +1,17 @@
+.countdown {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding: 50px 0;
+}
+.box {
+  background: #ff2f92;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 12px;
+  text-align: center;
+}
+.box span {
+  display: block;
+  font-size: 12px;
+}

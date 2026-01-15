@@ -1,0 +1,121 @@
+@font-face {
+  font-family: "Signature";
+  src: url("../../public/fonts/HelloValentina.ttf");
+}
+.detail {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+/* ===== PROFILE SECTION ===== */
+.profile-section {
+  background: #fff;
+}
+
+.profile-card {
+  max-width: 320px;
+  margin: auto;
+}
+
+.profile-img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 6px solid #ff2f92;
+}
+
+.script-name {
+  font-family: "Signature", cursive;
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+.subtitle {
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: #ff2f92;
+  margin: 10px 0;
+  font-weight: bolder;
+}
+
+.parents {
+  font-size: 14px;
+  color: #444;
+}
+
+/* ===== TIME SECTION ===== */
+.time-section {
+  background: #ff2f92;
+  color: white;
+}
+
+.time-section h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.opening-text {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.desc {
+  font-size: 15px;
+  line-height: 1.6;
+  max-width: 320px;
+  margin: auto;
+  opacity: 0.9;
+}
+
+.divider {
+  width: 60px;
+  height: 2px;
+  background: white;
+  margin: 30px auto;
+  opacity: 0.5;
+}
+
+.info-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 15px 0;
+}
+
+.info-item span {
+  font-size: 20px;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 12px 28px;
+  background: white;
+  color: #ff2f92;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+@media (min-width: 768px) {
+  .profile-card {
+    max-width: 500px;
+  }
+
+  .desc {
+    max-width: 500px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .profile-card {
+    max-width: 700px;
+  }
+
+  .desc {
+    max-width: 700px;
+  }
+}

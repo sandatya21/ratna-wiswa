@@ -1,0 +1,43 @@
+@font-face {
+  font-family: "Signature";
+  src: url("../../public/fonts/HelloValentina.ttf");
+}
+
+.footer-section {
+  background-image: url("../assets/bg2.png");
+  background-position: center;
+  background-size: cover;
+  padding: 80px 20px 60px;
+  text-align: center;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.footer-title {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #ff2f92;
+}
+
+.footer-desc {
+  max-width: 320px;
+  margin: auto;
+  font-size: 14px;
+  line-height: 1.7;
+  color: #555;
+}
+
+.footer-signature {
+  margin: 40px 0 30px;
+  font-family: "Signature", cursive;
+  font-size: 40px;
+  color: #333;
+}
+
+.footer-copy {
+  font-size: 15px;
+  color: #777;
+  line-height: 1.5;
+}
