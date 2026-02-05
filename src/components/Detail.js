@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/detail.css";
-import bg from "../assets/gekna.jpeg";
+import bg from "../assets/herofix.jpg";
 
 const Detail = () => (
   <>
