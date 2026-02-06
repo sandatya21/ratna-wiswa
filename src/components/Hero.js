@@ -4,7 +4,7 @@ import "../styles/hero.css";
 
 const Hero = () => (
   <motion.section className="hero" initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
-    <p className="subtitle">Undangan Acara 1 Oton</p>
+    <p className="subtitle">Undangan Acara 1 Oton & Mepetik Rambut</p>
     <h1 className="hello">Gunggek Ratna</h1>
     <span>24 Februari 2026</span>
     <div className="scroll-indicator">

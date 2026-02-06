@@ -24,7 +24,7 @@ const Detail = () => (
         <b>Om Swastyastu</b>
       </p>
 
-      <p className="desc">Atas asung kertha wara nugraha Ida Sang Hyang Widhi Wasa / Tuhan Yang Maha Esa, kami bermaksud menyelenggarakan Upacara Manusa Yadnya 1 Oton putri kami.</p>
+      <p className="desc">Atas asung kertha wara nugraha Ida Sang Hyang Widhi Wasa / Tuhan Yang Maha Esa, kami bermaksud menyelenggarakan Upacara Manusa Yadnya 1 Oton & Mepetik Rambut putri kami.</p>
 
       <div className="divider" />
 
