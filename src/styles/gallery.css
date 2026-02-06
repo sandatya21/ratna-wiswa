@@ -3,6 +3,9 @@
   text-align: center;
 }
 
+h2 {
+  color: #ff2f92;
+}
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
