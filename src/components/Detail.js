@@ -29,7 +29,7 @@ const Detail = () => (
       <div className="divider" />
 
       <div className="info-item">
-        <span>📅</span>
+        <span>🗓️</span>
         <p>Selasa, 24 Februari 2026</p>
       </div>
 
